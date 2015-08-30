@@ -1,0 +1,13 @@
+{
+  "ldapUrl": "ldap://192.168.3.253:389",
+  "login": {
+    "user": "cn=admin,dc=flipdot,dc=org",
+    "password": "flipdot"
+  },
+  "queryPath": "cn=members,dc=flipdot,dc=org",
+  "propertyNames": {
+    "password": "Password",
+    "name": "uid",
+    "password": "userPassword"
+  }
+}
